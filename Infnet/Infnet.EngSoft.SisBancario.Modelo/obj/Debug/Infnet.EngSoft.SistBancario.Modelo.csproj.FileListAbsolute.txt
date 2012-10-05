@@ -1,0 +1,10 @@
+C:\Users\Ubirajara\Desktop\Infnet\Infnet.EngSoft.SisBancario.Modelo\bin\Debug\Infnet.EngSoft.SisBancario.Modelo.dll
+C:\Users\Ubirajara\Desktop\Infnet\Infnet.EngSoft.SisBancario.Modelo\bin\Debug\Infnet.EngSoft.SisBancario.Modelo.pdb
+C:\Users\Ubirajara\Desktop\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ubirajara\Desktop\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\Infnet.EngSoft.SisBancario.Modelo.dll
+C:\Users\Ubirajara\Desktop\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\Infnet.EngSoft.SisBancario.Modelo.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SisBancario.Modelo\bin\Debug\Infnet.EngSoft.SisBancario.Modelo.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SisBancario.Modelo\bin\Debug\Infnet.EngSoft.SisBancario.Modelo.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\ResolveAssemblyReference.cache
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\Infnet.EngSoft.SisBancario.Modelo.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SisBancario.Modelo\obj\Debug\Infnet.EngSoft.SisBancario.Modelo.pdb
