@@ -1,0 +1,7 @@
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\obj\Debug\ResolveAssemblyReference.cache
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\obj\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\obj\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.pdb

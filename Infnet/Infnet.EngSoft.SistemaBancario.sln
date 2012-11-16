@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.EngSoft.SistemaBancario.Modelo", "Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo.csproj", "{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.EngSoft.SistemaBancario.Model.Teste", "Infnet.EngSoft.SistemaBancario.Model.Teste\Infnet.EngSoft.SistemaBancario.Model.Teste.csproj", "{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.EngSoft.SistemaBancario.Repositorio", "Infnet.EngSoft.SistemaBancario.Repositorio\Infnet.EngSoft.SistemaBancario.Repositorio.csproj", "{0511DCAB-F6B9-4841-925D-12D73FBE13C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.EngSoft.SistemaBancario.Servicos", "Infnet.EngSoft.SistemaBancario.Servicos\Infnet.EngSoft.SistemaBancario.Servicos.csproj", "{33B0CB20-9148-47EC-BDCD-F7E93EB68679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.EngSoft.SistemaBancario.ProjetoDeTeste", "ProjetoDeTeste\Infnet.EngSoft.SistemaBancario.ProjetoDeTeste.csproj", "{4A6DF253-1830-4C76-9F7D-930692E53307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51146434-D0BF-4DB9-8FF0-DE0DCAF9B461}"
+	ProjectSection(SolutionItems) = preProject
+		Infnet.EngSoft.SistemaBancario.vsmdi = Infnet.EngSoft.SistemaBancario.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Infnet.EngSoft.SistemaBancario.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0511DCAB-F6B9-4841-925D-12D73FBE13C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0511DCAB-F6B9-4841-925D-12D73FBE13C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0511DCAB-F6B9-4841-925D-12D73FBE13C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0511DCAB-F6B9-4841-925D-12D73FBE13C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B0CB20-9148-47EC-BDCD-F7E93EB68679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B0CB20-9148-47EC-BDCD-F7E93EB68679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B0CB20-9148-47EC-BDCD-F7E93EB68679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B0CB20-9148-47EC-BDCD-F7E93EB68679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6DF253-1830-4C76-9F7D-930692E53307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6DF253-1830-4C76-9F7D-930692E53307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6DF253-1830-4C76-9F7D-930692E53307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6DF253-1830-4C76-9F7D-930692E53307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

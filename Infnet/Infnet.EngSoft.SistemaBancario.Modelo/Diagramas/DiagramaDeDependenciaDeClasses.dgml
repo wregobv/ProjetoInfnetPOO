@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @13 @103)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Numero" />
+    <Node Id="(@1 @2 @13 Member=(Name=set_Agencia OverloadingParameters=[@4]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Agencia" />
+    <Node Id="(@1 @2 @13 Member=(Name=set_DataAbertura @60))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_DataAbertura" />
+    <Node Id="(@1 @2 @13 Member=(Name=set_Status @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Status" />
+    <Node Id="(@1 @2 @13 Member=get_DataAbertura)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_DataAbertura" />
+    <Node Id="(@1 @2 @13 Member=get_TransacoesBancarias)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_TransacoesBancarias" />
+    <Node Id="(@1 @2 @15 Member=(Name=set_LimiteCredito @61))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_LimiteCredito" />
+    <Node Id="(@1 @2 @18 @49)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comprovante" />
+    <Node Id="(@1 @2 @18 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executa" />
+    <Node Id="(@1 @2 @20 @103)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Numero" />
+    <Node Id="(@1 @2 @20 @67)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Numero" />
+    <Node Id="(@1 @2 @20 @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Endereco" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_Bairro @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Bairro" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_Cep @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Cep" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_Cidade @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Cidade" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_Comp @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comp" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_Logradouro @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Logradouro" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_TipoLogradouro @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_TipoLogradouro" />
+    <Node Id="(@1 @2 @20 Member=(Name=set_UF @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_UF" />
+    <Node Id="(@1 @2 @20 Member=get_Bairro)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Bairro" />
+    <Node Id="(@1 @2 @20 Member=get_Cep)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Cep" />
+    <Node Id="(@1 @2 @20 Member=get_Cidade)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Cidade" />
+    <Node Id="(@1 @2 @20 Member=get_Comp)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comp" />
+    <Node Id="(@1 @2 @20 Member=get_Logradouro)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Logradouro" />
+    <Node Id="(@1 @2 @20 Member=get_TipoLogradouro)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_TipoLogradouro" />
+    <Node Id="(@1 @2 @20 Member=get_UF)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_UF" />
+    <Node Id="(@1 @2 @22 @49)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comprovante" />
+    <Node Id="(@1 @2 @22 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executa" />
+    <Node Id="(@1 @2 @24 Member=(Name=set_Cpf @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Cpf" />
+    <Node Id="(@1 @2 @24 Member=(Name=set_DataNascimento @60))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_DataNascimento" />
+    <Node Id="(@1 @2 @24 Member=(Name=set_Rg @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Rg" />
+    <Node Id="(@1 @2 @24 Member=(Name=set_Sexo @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Sexo" />
+    <Node Id="(@1 @2 @24 Member=get_Cpf)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Cpf" />
+    <Node Id="(@1 @2 @24 Member=get_DataNascimento)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_DataNascimento" />
+    <Node Id="(@1 @2 @24 Member=get_Rg)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Rg" />
+    <Node Id="(@1 @2 @24 Member=get_Sexo)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Sexo" />
+    <Node Id="(@1 @2 @26 Member=(Name=set_Cnpj @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Cnpj" />
+    <Node Id="(@1 @2 @26 Member=(Name=set_DataFundacao @60))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_DataFundacao" />
+    <Node Id="(@1 @2 @26 Member=(Name=set_InscricaoEstadual @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_InscricaoEstadual" />
+    <Node Id="(@1 @2 @26 Member=get_Cnpj)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Cnpj" />
+    <Node Id="(@1 @2 @26 Member=get_DataFundacao)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_DataFundacao" />
+    <Node Id="(@1 @2 @26 Member=get_InscricaoEstadual)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_InscricaoEstadual" />
+    <Node Id="(@1 @2 @3 @103)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Numero" />
+    <Node Id="(@1 @2 @3 @67)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Numero" />
+    <Node Id="(@1 @2 @3 @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Agencia" />
+    <Node Id="(@1 @2 @3 Member=(Name=set_Banco OverloadingParameters=[@6]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Banco" />
+    <Node Id="(@1 @2 @3 Member=(Name=set_Descricao @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Descricao" />
+    <Node Id="(@1 @2 @3 Member=get_Contas)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Contas" />
+    <Node Id="(@1 @2 @3 Member=get_Descricao)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Descricao" />
+    <Node Id="(@1 @2 @34 @49)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comprovante" />
+    <Node Id="(@1 @2 @41 @103)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Numero" />
+    <Node Id="(@1 @2 @41 @67)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Numero" />
+    <Node Id="(@1 @2 @41 @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Telefone" />
+    <Node Id="(@1 @2 @41 Member=(Name=set_DDD OverloadingParameters=[(@58 @59 Type=Int32)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_DDD" />
+    <Node Id="(@1 @2 @41 Member=(Name=set_Tipo @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Tipo" />
+    <Node Id="(@1 @2 @41 Member=get_DDD)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_DDD" />
+    <Node Id="(@1 @2 @41 Member=get_Tipo)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Tipo" />
+    <Node Id="(@1 @2 @43 Member=(Name=set_Custo @61))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Custo" />
+    <Node Id="(@1 @2 @43 Member=(Name=set_Data @60))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Data" />
+    <Node Id="(@1 @2 @47 @49)" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comprovante" />
+    <Node Id="(@1 @2 @47 @84)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executa" />
+    <Node Id="(@1 @2 @5 @103)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Numero" />
+    <Node Id="(@1 @2 @5 @67)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Numero" />
+    <Node Id="(@1 @2 @5 @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Banco" />
+    <Node Id="(@1 @2 @5 Member=(Name=set_Descricao @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Descricao" />
+    <Node Id="(@1 @2 @5 Member=get_Agencias)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Agencias" />
+    <Node Id="(@1 @2 @5 Member=get_Descricao)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Descricao" />
+    <Node Id="(@1 @2 @7 Member=(Name=set_Email @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Email" />
+    <Node Id="(@1 @2 @7 Member=(Name=set_Endereco OverloadingParameters=[@21]))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Endereco" />
+    <Node Id="(@1 @2 @7 Member=(Name=set_Nome @70))" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Nome" />
+    <Node Id="(@1 @2 @7 Member=get_Email)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Email" />
+    <Node Id="(@1 @2 @7 Member=get_Nome)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Nome" />
+    <Node Id="(@1 @2 @7 Member=get_Telefones)" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Telefones" />
+    <Node Id="(@1 @2 @9 Member=get_Descricao)" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Descricao" />
+    <Node Id="(@11 @12 Type=Conta @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Conta" />
+    <Node Id="(@11 @12 Type=Conta)" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Conta" />
+    <Node Id="(@28 @29 @30 Member=.cctor)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static RepositorioSaque" />
+    <Node Id="(@28 @29 @32 Member=.cctor)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="static RepositorioTransacaoBancaria" />
+    <Node Id="(@36 @37 @38 @77)" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="SaqueTestes" />
+    <Node Id="@10" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Comprovante" />
+    <Node Id="@100" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Data" />
+    <Node Id="@101" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Endereco" />
+    <Node Id="@102" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_LimiteCredito" />
+    <Node Id="@104" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Saldo" />
+    <Node Id="@105" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Status" />
+    <Node Id="@106" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Valor" />
+    <Node Id="@107" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Listar" />
+    <Node Id="@108" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Listar" />
+    <Node Id="@109" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="testar_saque" />
+    <Node Id="@110" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="testar_saque_transacoesBancarias" />
+    <Node Id="@111" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="testar_saque_transacoesBancarias1" />
+    <Node Id="@14" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ContaCorrente" />
+    <Node Id="@16" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ContaEspecial" />
+    <Node Id="@17" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ContaNormal" />
+    <Node Id="@19" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Deposito" />
+    <Node Id="@21" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Endereco" />
+    <Node Id="@23" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Extrato" />
+    <Node Id="@25" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PessoaFisica" />
+    <Node Id="@27" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="PessoaJuridica" />
+    <Node Id="@31" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="RepositorioSaque" />
+    <Node Id="@33" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="RepositorioTransacaoBancaria" />
+    <Node Id="@35" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Saque" />
+    <Node Id="@39" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="SaqueTestes" />
+    <Node Id="@4" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Agencia" />
+    <Node Id="@40" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ServicoSaque" />
+    <Node Id="@42" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Telefone" />
+    <Node Id="@44" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="TransacaoBancaria" />
+    <Node Id="@46" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="TransacaoMonetaria" />
+    <Node Id="@48" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Transferencia" />
+    <Node Id="@50" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Comprovante" />
+    <Node Id="@52" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Deposito" />
+    <Node Id="@53" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Extrato" />
+    <Node Id="@54" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="TransacaoBancaria" />
+    <Node Id="@55" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="TransacaoMonetaria" />
+    <Node Id="@56" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Transferencia" />
+    <Node Id="@57" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Conta" />
+    <Node Id="@6" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Banco" />
+    <Node Id="@62" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Credita" />
+    <Node Id="@63" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Debita" />
+    <Node Id="@64" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Debita" />
+    <Node Id="@65" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Saldo" />
+    <Node Id="@66" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Valor" />
+    <Node Id="@68" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Numero" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Adicionar" />
+    <Node Id="@71" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Comprovante" />
+    <Node Id="@72" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsSpecialName="True" Label="set_Descricao" />
+    <Node Id="@73" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPrivate="True" Label="&lt;testar_saque_transacoesBancarias&gt;b__0" />
+    <Node Id="@74" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Adicionar" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Saque" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ServicoSaque" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsSpecialName="True" Label="Cliente" />
+    <Node Id="@79" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ContaCorrente" />
+    <Node Id="@8" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Cliente" />
+    <Node Id="@80" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ContaEspecial" />
+    <Node Id="@81" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="ContaNormal" />
+    <Node Id="@82" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PessoaFisica" />
+    <Node Id="@83" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="PessoaJuridica" />
+    <Node Id="@85" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executa" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executa" />
+    <Node Id="@87" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Executar" />
+    <Node Id="@88" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="GerarComprovante" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="GerarComprovante" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Agencia" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Banco" />
+    <Node Id="@93" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comprovante" />
+    <Node Id="@94" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comprovante" />
+    <Node Id="@95" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comprovante" />
+    <Node Id="@96" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comprovante" />
+    <Node Id="@97" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Comprovante" />
+    <Node Id="@98" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Conta" />
+    <Node Id="@99" Category="CodeSchema_Method" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="get_Custo" />
+  </Nodes>
+  <Links>
+    <Link Source="(@11 @12 Type=Conta)" Target="(@11 @12 Type=Conta @77)" Category="Contains" />
+    <Link Source="@10" Target="(@1 @2 @9 Member=get_Descricao)" Category="Contains" />
+    <Link Source="@10" Target="@71" Category="Contains" />
+    <Link Source="@10" Target="@72" Category="Contains" />
+    <Link Source="@101" Target="@21" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@109" Target="@10" Category="References" />
+    <Link Source="@109" Target="@107" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@14" Category="References" />
+    <Link Source="@109" Target="@35" Category="References" />
+    <Link Source="@109" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@109" Target="@96" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@10" Category="References" />
+    <Link Source="@110" Target="@108" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@14" Category="References" />
+    <Link Source="@110" Target="@35" Category="References" />
+    <Link Source="@110" Target="@44" Category="References" />
+    <Link Source="@110" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@73" Category="CodeSchema_FunctionPointer" />
+    <Link Source="@110" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@110" Target="@96" Category="CodeSchema_Calls" />
+    <Link Source="@111" Target="@108" Category="CodeSchema_Calls" />
+    <Link Source="@111" Target="@14" Category="References" />
+    <Link Source="@111" Target="@40" Category="References" />
+    <Link Source="@111" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@111" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@111" Target="@76" Category="CodeSchema_Calls" />
+    <Link Source="@111" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@14" Target="(@1 @2 @13 @103)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=(Name=set_Agencia OverloadingParameters=[@4]))" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=(Name=set_DataAbertura @60))" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=(Name=set_Status @70))" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=get_DataAbertura)" Category="Contains" />
+    <Link Source="@14" Target="(@1 @2 @13 Member=get_TransacoesBancarias)" Category="Contains" />
+    <Link Source="@14" Target="@104" Category="Contains" />
+    <Link Source="@14" Target="@105" Category="Contains" />
+    <Link Source="@14" Target="@4" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@14" Target="@62" Category="Contains" />
+    <Link Source="@14" Target="@63" Category="Contains" />
+    <Link Source="@14" Target="@65" Category="Contains" />
+    <Link Source="@14" Target="@68" Category="Contains" />
+    <Link Source="@14" Target="@79" Category="Contains" />
+    <Link Source="@14" Target="@90" Category="Contains" />
+    <Link Source="@16" Target="(@1 @2 @15 Member=(Name=set_LimiteCredito @61))" Category="Contains" />
+    <Link Source="@16" Target="@102" Category="Contains" />
+    <Link Source="@16" Target="@14" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@16" Target="@64" Category="Contains" />
+    <Link Source="@16" Target="@80" Category="Contains" />
+    <Link Source="@17" Target="@14" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@81" Category="Contains" />
+    <Link Source="@19" Target="(@1 @2 @18 @49)" Category="Contains" />
+    <Link Source="@19" Target="(@1 @2 @18 @84)" Category="Contains" />
+    <Link Source="@19" Target="@46" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="@52" Category="Contains" />
+    <Link Source="@19" Target="@93" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 @103)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 @67)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 @77)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_Bairro @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_Cep @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_Cidade @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_Comp @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_Logradouro @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_TipoLogradouro @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=(Name=set_UF @70))" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_Bairro)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_Cep)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_Cidade)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_Comp)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_Logradouro)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_TipoLogradouro)" Category="Contains" />
+    <Link Source="@21" Target="(@1 @2 @20 Member=get_UF)" Category="Contains" />
+    <Link Source="@23" Target="(@1 @2 @22 @49)" Category="Contains" />
+    <Link Source="@23" Target="(@1 @2 @22 @84)" Category="Contains" />
+    <Link Source="@23" Target="@44" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@23" Target="@53" Category="Contains" />
+    <Link Source="@23" Target="@94" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=(Name=set_Cpf @70))" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=(Name=set_DataNascimento @60))" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=(Name=set_Rg @70))" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=(Name=set_Sexo @70))" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=get_Cpf)" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=get_DataNascimento)" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=get_Rg)" Category="Contains" />
+    <Link Source="@25" Target="(@1 @2 @24 Member=get_Sexo)" Category="Contains" />
+    <Link Source="@25" Target="@8" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@82" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=(Name=set_Cnpj @70))" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=(Name=set_DataFundacao @60))" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=(Name=set_InscricaoEstadual @70))" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=get_Cnpj)" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=get_DataFundacao)" Category="Contains" />
+    <Link Source="@27" Target="(@1 @2 @26 Member=get_InscricaoEstadual)" Category="Contains" />
+    <Link Source="@27" Target="@8" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@27" Target="@83" Category="Contains" />
+    <Link Source="@31" Target="(@28 @29 @30 Member=.cctor)" Category="Contains" />
+    <Link Source="@31" Target="@107" Category="Contains" />
+    <Link Source="@31" Target="@69" Category="Contains" />
+    <Link Source="@33" Target="(@28 @29 @32 Member=.cctor)" Category="Contains" />
+    <Link Source="@33" Target="@108" Category="Contains" />
+    <Link Source="@33" Target="@74" Category="Contains" />
+    <Link Source="@35" Target="(@1 @2 @34 @49)" Category="Contains" />
+    <Link Source="@35" Target="@10" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@35" Target="@46" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@35" Target="@75" Category="Contains" />
+    <Link Source="@35" Target="@85" Category="Contains" />
+    <Link Source="@35" Target="@88" Category="Contains" />
+    <Link Source="@35" Target="@95" Category="Contains" />
+    <Link Source="@39" Target="(@36 @37 @38 @77)" Category="Contains" />
+    <Link Source="@39" Target="@109" Category="Contains" />
+    <Link Source="@39" Target="@110" Category="Contains" />
+    <Link Source="@39" Target="@111" Category="Contains" />
+    <Link Source="@39" Target="@73" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 @103)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 @67)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 @77)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=(Name=set_Banco OverloadingParameters=[@6]))" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=(Name=set_Descricao @70))" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=get_Contas)" Category="Contains" />
+    <Link Source="@4" Target="(@1 @2 @3 Member=get_Descricao)" Category="Contains" />
+    <Link Source="@4" Target="@6" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@4" Target="@91" Category="Contains" />
+    <Link Source="@40" Target="@14" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@40" Target="@76" Category="Contains" />
+    <Link Source="@40" Target="@87" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 @103)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 @67)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 @77)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 Member=(Name=set_DDD OverloadingParameters=[(@58 @59 Type=Int32)]))" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 Member=(Name=set_Tipo @70))" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 Member=get_DDD)" Category="Contains" />
+    <Link Source="@42" Target="(@1 @2 @41 Member=get_Tipo)" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=(Name=set_Custo @61))" Category="Contains" />
+    <Link Source="@44" Target="(@1 @2 @43 Member=(Name=set_Data @60))" Category="Contains" />
+    <Link Source="@44" Target="@100" Category="Contains" />
+    <Link Source="@44" Target="@14" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@44" Target="@50" Category="Contains" />
+    <Link Source="@44" Target="@54" Category="Contains" />
+    <Link Source="@44" Target="@57" Category="Contains" />
+    <Link Source="@44" Target="@86" Category="Contains" />
+    <Link Source="@44" Target="@96" Category="Contains" />
+    <Link Source="@44" Target="@98" Category="Contains" />
+    <Link Source="@44" Target="@99" Category="Contains" />
+    <Link Source="@46" Target="@106" Category="Contains" />
+    <Link Source="@46" Target="@44" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@46" Target="@55" Category="Contains" />
+    <Link Source="@46" Target="@66" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @49)" Category="Contains" />
+    <Link Source="@48" Target="(@1 @2 @47 @84)" Category="Contains" />
+    <Link Source="@48" Target="@10" Category="References">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@48" Target="@46" Category="InheritsFrom">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@48" Target="@56" Category="Contains" />
+    <Link Source="@48" Target="@89" Category="Contains" />
+    <Link Source="@48" Target="@97" Category="Contains" />
+    <Link Source="@52" Target="@55" Category="CodeSchema_Calls" />
+    <Link Source="@53" Target="@54" Category="CodeSchema_Calls" />
+    <Link Source="@54" Target="@57" Category="CodeSchema_Calls" />
+    <Link Source="@55" Target="@54" Category="CodeSchema_Calls" />
+    <Link Source="@56" Target="@55" Category="CodeSchema_Calls" />
+    <Link Source="@6" Target="(@1 @2 @5 @103)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @67)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 @77)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=(Name=set_Descricao @70))" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=get_Agencias)" Category="Contains" />
+    <Link Source="@6" Target="(@1 @2 @5 Member=get_Descricao)" Category="Contains" />
+    <Link Source="@62" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@65" Category="CodeSchema_Calls" />
+    <Link Source="@63" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@63" Target="@65" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@102" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@65" Category="CodeSchema_Calls" />
+    <Link Source="@71" Target="@72" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@35" Category="References" />
+    <Link Source="@75" Target="@55" Category="CodeSchema_Calls" />
+    <Link Source="@75" Target="@66" Category="CodeSchema_Calls" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=(Name=set_Email @70))" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=(Name=set_Endereco OverloadingParameters=[@21]))" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=(Name=set_Nome @70))" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=get_Email)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=get_Nome)" Category="Contains" />
+    <Link Source="@8" Target="(@1 @2 @7 Member=get_Telefones)" Category="Contains" />
+    <Link Source="@8" Target="@101" Category="Contains" />
+    <Link Source="@8" Target="@21" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@8" Target="@78" Category="Contains" />
+    <Link Source="@80" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@82" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@83" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@106" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@63" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@85" Target="@98" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@105" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@44" Category="References" />
+    <Link Source="@87" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@87" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@88" Target="@10" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@88" Target="@100" Category="CodeSchema_Calls" />
+    <Link Source="@88" Target="@106" Category="CodeSchema_Calls" />
+    <Link Source="@88" Target="@71" Category="CodeSchema_Calls" />
+    <Link Source="@88" Target="@99" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@10" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@89" Target="@100" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@106" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@71" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@99" Category="CodeSchema_Calls" />
+    <Link Source="@90" Target="@4" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@91" Target="@6" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@93" Target="@10" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@94" Target="@10" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@95" Target="@10" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@96" Target="@10" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@97" Target="@10" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@97" Target="@89" Category="CodeSchema_Calls" />
+    <Link Source="@98" Target="@14" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="CodeSchema_Type" Label="Type" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsCompilerGenerated" Label="IsCompilerGenerated" Description="IsCompilerGenerated" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="IsProtected" Description="IsProtected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="IsSpecialName" Description="IsSpecialName" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Progression.Layout.GraphDirection" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(d0770b08-9ade-4e6a-aac9-e02957ad8f44.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=Infnet.EngSoft.SistemaBancario.Modelo" />
+    <Alias n="3" Id="Type=Agencia" />
+    <Alias n="4" Id="(@1 @2 @3)" />
+    <Alias n="5" Id="Type=Banco" />
+    <Alias n="6" Id="(@1 @2 @5)" />
+    <Alias n="7" Id="Type=Cliente" />
+    <Alias n="8" Id="(@1 @2 @7)" />
+    <Alias n="9" Id="Type=Comprovante" />
+    <Alias n="10" Id="(@1 @2 @9)" />
+    <Alias n="11" Uri="Assembly=$(33b0cb20-9148-47ec-bdcd-f7e93eb68679.OutputPathUri)" />
+    <Alias n="12" Id="Namespace=Infnet.EngSoft.SistemaBancario.Servico" />
+    <Alias n="13" Id="Type=ContaCorrente" />
+    <Alias n="14" Id="(@1 @2 @13)" />
+    <Alias n="15" Id="Type=ContaEspecial" />
+    <Alias n="16" Id="(@1 @2 @15)" />
+    <Alias n="17" Id="(@1 @2 Type=ContaNormal)" />
+    <Alias n="18" Id="Type=Deposito" />
+    <Alias n="19" Id="(@1 @2 @18)" />
+    <Alias n="20" Id="Type=Endereco" />
+    <Alias n="21" Id="(@1 @2 @20)" />
+    <Alias n="22" Id="Type=Extrato" />
+    <Alias n="23" Id="(@1 @2 @22)" />
+    <Alias n="24" Id="Type=PessoaFisica" />
+    <Alias n="25" Id="(@1 @2 @24)" />
+    <Alias n="26" Id="Type=PessoaJuridica" />
+    <Alias n="27" Id="(@1 @2 @26)" />
+    <Alias n="28" Uri="Assembly=$(0511dcab-f6b9-4841-925d-12d73fbe13c9.OutputPathUri)" />
+    <Alias n="29" Id="Namespace=Infnet.EngSoft.SistemaBancario.Repositorio" />
+    <Alias n="30" Id="Type=RepositorioSaque" />
+    <Alias n="31" Id="(@28 @29 @30)" />
+    <Alias n="32" Id="Type=RepositorioTransacaoBancaria" />
+    <Alias n="33" Id="(@28 @29 @32)" />
+    <Alias n="34" Id="Type=Saque" />
+    <Alias n="35" Id="(@1 @2 @34)" />
+    <Alias n="36" Uri="Assembly=$(10c8a5f0-7280-4c08-931e-73dd20cbbbf5.OutputPathUri)" />
+    <Alias n="37" Id="Namespace=EngSoft.SistemaBancario.Model.Teste" />
+    <Alias n="38" Id="Type=SaqueTestes" />
+    <Alias n="39" Id="(@36 @37 @38)" />
+    <Alias n="40" Id="(@11 @12 Type=ServicoSaque)" />
+    <Alias n="41" Id="Type=Telefone" />
+    <Alias n="42" Id="(@1 @2 @41)" />
+    <Alias n="43" Id="Type=TransacaoBancaria" />
+    <Alias n="44" Id="(@1 @2 @43)" />
+    <Alias n="45" Id="Type=TransacaoMonetaria" />
+    <Alias n="46" Id="(@1 @2 @45)" />
+    <Alias n="47" Id="Type=Transferencia" />
+    <Alias n="48" Id="(@1 @2 @47)" />
+    <Alias n="49" Id="Member=(Name=set_Comprovante OverloadingParameters=[@10])" />
+    <Alias n="50" Id="(@1 @2 @43 @49)" />
+    <Alias n="51" Id="Member=(Name=.ctor OverloadingParameters=[@14])" />
+    <Alias n="52" Id="(@1 @2 @18 @51)" />
+    <Alias n="53" Id="(@1 @2 @22 @51)" />
+    <Alias n="54" Id="(@1 @2 @43 @51)" />
+    <Alias n="55" Id="(@1 @2 @45 @51)" />
+    <Alias n="56" Id="(@1 @2 @47 @51)" />
+    <Alias n="57" Id="(@1 @2 @43 Member=(Name=set_Conta OverloadingParameters=[@14]))" />
+    <Alias n="58" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="59" Id="Namespace=System" />
+    <Alias n="60" Id="OverloadingParameters=[(@58 @59 Type=DateTime)]" />
+    <Alias n="61" Id="OverloadingParameters=[(@58 @59 Type=Decimal)]" />
+    <Alias n="62" Id="(@1 @2 @13 Member=(Name=Credita @61))" />
+    <Alias n="63" Id="(@1 @2 @13 Member=(Name=Debita @61))" />
+    <Alias n="64" Id="(@1 @2 @15 Member=(Name=Debita @61))" />
+    <Alias n="65" Id="(@1 @2 @13 Member=(Name=set_Saldo @61))" />
+    <Alias n="66" Id="(@1 @2 @45 Member=(Name=set_Valor @61))" />
+    <Alias n="67" Id="Member=(Name=set_Numero OverloadingParameters=[(@58 @59 Type=Int32)])" />
+    <Alias n="68" Id="(@1 @2 @13 @67)" />
+    <Alias n="69" Id="(@28 @29 @30 Member=(Name=Adicionar OverloadingParameters=[@35]))" />
+    <Alias n="70" Id="OverloadingParameters=[(@58 @59 Type=String)]" />
+    <Alias n="71" Id="(@1 @2 @9 Member=(Name=.ctor @70))" />
+    <Alias n="72" Id="(@1 @2 @9 Member=(Name=set_Descricao @70))" />
+    <Alias n="73" Id="(@36 @37 @38 Member=(Name=&lt;testar_saque_transacoesBancarias&gt;b__0 OverloadingParameters=[@44]))" />
+    <Alias n="74" Id="(@28 @29 @32 Member=(Name=Adicionar OverloadingParameters=[@44]))" />
+    <Alias n="75" Id="(@1 @2 @34 Member=(Name=.ctor OverloadingParameters=[@14,(@58 @59 Type=Decimal)]))" />
+    <Alias n="76" Id="(@11 @12 Type=ServicoSaque Member=(Name=.ctor OverloadingParameters=[@14,(@58 @59 Type=Decimal)]))" />
+    <Alias n="77" Id="Member=.ctor" />
+    <Alias n="78" Id="(@1 @2 @7 @77)" />
+    <Alias n="79" Id="(@1 @2 @13 @77)" />
+    <Alias n="80" Id="(@1 @2 @15 @77)" />
+    <Alias n="81" Id="(@1 @2 Type=ContaNormal @77)" />
+    <Alias n="82" Id="(@1 @2 @24 @77)" />
+    <Alias n="83" Id="(@1 @2 @26 @77)" />
+    <Alias n="84" Id="Member=Executa" />
+    <Alias n="85" Id="(@1 @2 @34 @84)" />
+    <Alias n="86" Id="(@1 @2 @43 @84)" />
+    <Alias n="87" Id="(@11 @12 Type=ServicoSaque Member=Executar)" />
+    <Alias n="88" Id="(@1 @2 @34 Member=GerarComprovante)" />
+    <Alias n="89" Id="(@1 @2 @47 Member=GerarComprovante)" />
+    <Alias n="90" Id="(@1 @2 @13 Member=get_Agencia)" />
+    <Alias n="91" Id="(@1 @2 @3 Member=get_Banco)" />
+    <Alias n="92" Id="Member=get_Comprovante" />
+    <Alias n="93" Id="(@1 @2 @18 @92)" />
+    <Alias n="94" Id="(@1 @2 @22 @92)" />
+    <Alias n="95" Id="(@1 @2 @34 @92)" />
+    <Alias n="96" Id="(@1 @2 @43 @92)" />
+    <Alias n="97" Id="(@1 @2 @47 @92)" />
+    <Alias n="98" Id="(@1 @2 @43 Member=get_Conta)" />
+    <Alias n="99" Id="(@1 @2 @43 Member=get_Custo)" />
+    <Alias n="100" Id="(@1 @2 @43 Member=get_Data)" />
+    <Alias n="101" Id="(@1 @2 @7 Member=get_Endereco)" />
+    <Alias n="102" Id="(@1 @2 @15 Member=get_LimiteCredito)" />
+    <Alias n="103" Id="Member=get_Numero" />
+    <Alias n="104" Id="(@1 @2 @13 Member=get_Saldo)" />
+    <Alias n="105" Id="(@1 @2 @13 Member=get_Status)" />
+    <Alias n="106" Id="(@1 @2 @45 Member=get_Valor)" />
+    <Alias n="107" Id="(@28 @29 @30 Member=Listar)" />
+    <Alias n="108" Id="(@28 @29 @32 Member=Listar)" />
+    <Alias n="109" Id="(@36 @37 @38 Member=testar_saque)" />
+    <Alias n="110" Id="(@36 @37 @38 Member=testar_saque_transacoesBancarias)" />
+    <Alias n="111" Id="(@36 @37 @38 Member=testar_saque_transacoesBancarias1)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="0511dcab-f6b9-4841-925d-12d73fbe13c9.OutputPath" Value="C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Repositorio\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.dll" />
+    <Path Id="0511dcab-f6b9-4841-925d-12d73fbe13c9.OutputPathUri" Value="file:///C:/WILLIAM/GITHUB/INFNET/ProjetoInfnetPOO/Infnet/Infnet.EngSoft.SistemaBancario.Repositorio/bin/Debug/Infnet.EngSoft.SistemaBancario.Repositorio.dll" />
+    <Path Id="10c8a5f0-7280-4c08-931e-73dd20cbbbf5.OutputPath" Value="C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Model.Teste\bin\Debug\Infnet.EngSoft.SistemaBancario.Model.Teste.dll" />
+    <Path Id="10c8a5f0-7280-4c08-931e-73dd20cbbbf5.OutputPathUri" Value="file:///C:/WILLIAM/GITHUB/INFNET/ProjetoInfnetPOO/Infnet/Infnet.EngSoft.SistemaBancario.Model.Teste/bin/Debug/Infnet.EngSoft.SistemaBancario.Model.Teste.dll" />
+    <Path Id="33b0cb20-9148-47ec-bdcd-f7e93eb68679.OutputPath" Value="C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Servicos.dll" />
+    <Path Id="33b0cb20-9148-47ec-bdcd-f7e93eb68679.OutputPathUri" Value="file:///C:/WILLIAM/GITHUB/INFNET/ProjetoInfnetPOO/Infnet/Infnet.EngSoft.SistemaBancario.Servicos/bin/Debug/Infnet.EngSoft.SistemaBancario.Servicos.dll" />
+    <Path Id="d0770b08-9ade-4e6a-aac9-e02957ad8f44.OutputPath" Value="C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Modelo\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll" />
+    <Path Id="d0770b08-9ade-4e6a-aac9-e02957ad8f44.OutputPathUri" Value="file:///C:/WILLIAM/GITHUB/INFNET/ProjetoInfnetPOO/Infnet/Infnet.EngSoft.SistemaBancario.Modelo/bin/Debug/Infnet.EngSoft.SistemaBancario.Modelo.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>

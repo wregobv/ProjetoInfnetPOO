@@ -1,0 +1,15 @@
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\ProjetoDeTeste.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\ProjetoDeTeste.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Model.Teste.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Servicos.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\nunit.framework.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Model.Teste.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Servicos.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.pdb
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\bin\Debug\nunit.framework.xml
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\obj\Debug\ResolveAssemblyReference.cache
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\obj\Debug\ProjetoDeTeste.dll
+C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\ProjetoDeTeste\obj\Debug\ProjetoDeTeste.pdb
