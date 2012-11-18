@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infnet.EngSoft.SistemaBancario.Modelo
+namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Deposito : TransacaoMonetaria
     {
+        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+
         public Deposito(ContaCorrente conta)
             : base(conta)
         {
@@ -23,7 +25,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo
             {
                 throw new NotImplementedException();
             }
-            protected set
+            set
             {
                 throw new NotImplementedException();
             }

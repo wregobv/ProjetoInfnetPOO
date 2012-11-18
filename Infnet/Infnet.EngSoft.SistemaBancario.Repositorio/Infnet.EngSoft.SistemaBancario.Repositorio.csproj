@@ -45,6 +45,9 @@
     <Compile Include="RepositorioTransacaoBancaria.cs" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo.csproj">
       <Project>{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}</Project>
       <Name>Infnet.EngSoft.SistemaBancario.Modelo</Name>

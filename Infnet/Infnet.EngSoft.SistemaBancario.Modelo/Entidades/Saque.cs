@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infnet.EngSoft.SistemaBancario.Modelo
+namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Saque : TransacaoMonetaria
     {
+        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+
         public Saque(ContaCorrente conta, decimal valor) : base(conta)
         {
             this.Valor = valor;
@@ -26,7 +28,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo
         public override Comprovante Comprovante
         {
             get;
-            protected set;
+            set;
         }
     }
 }

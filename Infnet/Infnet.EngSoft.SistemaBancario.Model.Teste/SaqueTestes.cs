@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 using Infnet.EngSoft.SistemaBancario.Modelo;
+using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 using Infnet.EngSoft.SistemaBancario.Repositorio;
 using Infnet.EngSoft.SistemaBancario.Servico;
 

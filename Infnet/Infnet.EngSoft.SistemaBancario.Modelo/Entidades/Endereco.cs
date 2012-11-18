@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infnet.EngSoft.SistemaBancario.Modelo
+namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Entidades
 {
     public class Endereco
     {
@@ -15,6 +15,8 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo
         public string Cidade { get; set; }
         public string UF { get; set; }
         public string Cep { get; set; }
+
+        public virtual Cliente Cliente { get; set; }
     }
 
 }

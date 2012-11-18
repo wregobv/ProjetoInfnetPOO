@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Infnet.EngSoft.SistemaBancario.Modelo">
-      <HintPath>..\Infnet.EngSoft.SistemaBancario.Modelo\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="nunit.framework">
@@ -63,6 +60,10 @@
     <ProjectReference Include="..\Infnet.EngSoft.SistemaBancario.Model.Teste\Infnet.EngSoft.SistemaBancario.Model.Teste.csproj">
       <Project>{10C8A5F0-7280-4C08-931E-73DD20CBBBF5}</Project>
       <Name>Infnet.EngSoft.SistemaBancario.Model.Teste</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infnet.EngSoft.SistemaBancario.Modelo\Infnet.EngSoft.SistemaBancario.Modelo.csproj">
+      <Project>{D0770B08-9ADE-4E6A-AAC9-E02957AD8F44}</Project>
+      <Name>Infnet.EngSoft.SistemaBancario.Modelo</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infnet.EngSoft.SistemaBancario.Repositorio\Infnet.EngSoft.SistemaBancario.Repositorio.csproj">
       <Project>{0511DCAB-F6B9-4841-925D-12D73FBE13C9}</Project>

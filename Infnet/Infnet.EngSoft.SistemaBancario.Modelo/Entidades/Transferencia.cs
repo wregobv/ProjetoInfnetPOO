@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infnet.EngSoft.SistemaBancario.Modelo
+namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Transferencia : TransacaoMonetaria
     {
+        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+
         public Transferencia(ContaCorrente conta)
             : base(conta)
         {
@@ -15,7 +17,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo
 
         public override void Executa()
         {
-            throw new NotImplementedException();
+
         }
 
         private Comprovante GerarComprovante()
@@ -32,7 +34,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo
                     comprovante = GerarComprovante();
                 return comprovante;
             }
-            protected set
+            set
             {
                 comprovante = value;
             }
