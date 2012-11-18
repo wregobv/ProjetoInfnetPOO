@@ -7,7 +7,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Extrato : TransacaoBancaria
     {
-        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+        public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
         public DateTime DataInicial { get; set; }
         public DateTime DataFinal { get; set; }
@@ -29,10 +29,15 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
             {
                 return Comprovante;
             }
-            set
+            protected set
             {
                 Comprovante = Comprovante;
             }
+        }
+
+        public override Comprovante GerarComprovante()
+        {
+            return new Comprovante("Extrato em: " + Data + " Referente a conta: " + Conta.Numero + " Período de: " + Conta.TransacaoMonetaria.Extrato.DataInicial + " até " + Conta.TransacaoMonetaria.Extrato.DataFinal );
         }
 
     }

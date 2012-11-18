@@ -7,28 +7,38 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Deposito : TransacaoMonetaria
     {
-        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+        public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
-        public Deposito(ContaCorrente conta)
-            : base(conta)
+        public Deposito(ContaCorrente conta, decimal valor) : base(conta)
         {
-
+            this.Valor = valor;
         }
+
         public override void Executa()
         {
-            throw new NotImplementedException();
+            Conta.Credita(Valor);
         }
 
+        public override Comprovante GerarComprovante()
+        {
+            return new Comprovante("Depósito em: " + Data + " Creditado na conta: " + Conta.Numero + " Valor de: " + Valor);
+        }
+
+        private Comprovante comprovante;
         public override Comprovante Comprovante
         {
             get
             {
-                throw new NotImplementedException();
+                if (comprovante == null)
+                    comprovante = GerarComprovante();
+
+                return comprovante;
             }
-            set
+            protected set
             {
-                throw new NotImplementedException();
+                comprovante = value;
             }
         }
+
     }
 }

@@ -7,7 +7,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {
     public class Saque : TransacaoMonetaria
     {
-        public virtual TransacaoMonetaria TransacaoMonetaria { get; set; }
+        public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
         public Saque(ContaCorrente conta, decimal valor) : base(conta)
         {
@@ -17,18 +17,29 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
         public override void Executa()
         {
             Conta.Debita(Valor);
-            Comprovante = GerarComprovante();
         }
 
-        private Comprovante GerarComprovante()
+        public override Comprovante GerarComprovante()
         {
             return new Comprovante("Saque em:" + Data + "Custo:" + Custo + "Valor de:" + Valor);
         }
 
+        private Comprovante comprovante;
         public override Comprovante Comprovante
         {
-            get;
-            set;
+            get
+            {
+                if (comprovante == null)
+                    comprovante = GerarComprovante();
+
+                return comprovante;
+            }
+            protected set
+            {
+                comprovante = value;
+            }
+
         }
+
     }
 }

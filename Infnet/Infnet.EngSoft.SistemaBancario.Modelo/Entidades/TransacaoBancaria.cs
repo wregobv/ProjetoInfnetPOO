@@ -9,8 +9,11 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
     {
         public System.DateTime Data { get; set; }
         public decimal Custo { get; set; }
-        public virtual ContaCorrente Conta { get; set; }
-        public virtual Comprovante Comprovante { get; set; }
+        public ContaCorrente Conta { get; private set; }
+
+        public abstract Comprovante Comprovante { get; protected set; }
+        
+        public abstract Comprovante GerarComprovante();
 
 
         public TransacaoBancaria(ContaCorrente contaCorrente)

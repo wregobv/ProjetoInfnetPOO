@@ -14,6 +14,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
         public enum TipoConta{ Especial, Normal }
         public virtual Agencia Agencia { get; set; }
         public virtual Cliente Cliente { get; set; }
+        public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
 
         List<TransacaoBancaria> transacoesBancarias = new List<TransacaoBancaria>();
