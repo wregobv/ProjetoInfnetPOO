@@ -10,7 +10,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 
         public decimal LimiteCredito { get; set; }
         public virtual ContaCorrente Conta { get; set; }
-        public virtual Agencia Agencia { get; set; }
+        public virtual Agencia Agencia2 { get; set; }
 
 
         public override decimal Debita(decimal valor)

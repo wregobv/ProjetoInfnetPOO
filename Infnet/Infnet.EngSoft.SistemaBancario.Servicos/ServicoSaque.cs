@@ -6,7 +6,7 @@ using Infnet.EngSoft.SistemaBancario.Repositorio;
 using Infnet.EngSoft.SistemaBancario.Modelo;
 using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 
-namespace Infnet.EngSoft.SistemaBancario.Servico
+namespace Infnet.EngSoft.SistemaBancario.Servicos
 {
     public class ServicoSaque
     {

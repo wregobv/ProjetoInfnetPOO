@@ -9,7 +9,8 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
     {
 
         public enum Perfil { Normal, Estrategico };
-
+        public virtual Cliente Cliente { get; set; }
 
     }
+
 }

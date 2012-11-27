@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Infnet.EngSoft.SistemaBancario.Modelo;
+﻿    using System.Collections.Generic;
 using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 
 namespace Infnet.EngSoft.SistemaBancario.Repositorio
 {
-    //class RepositorioTransacaoBancaria
-    //{
-    //}
 
     public static class RepositorioTransacaoBancaria
     {
@@ -23,6 +16,11 @@ namespace Infnet.EngSoft.SistemaBancario.Repositorio
         public static void Adicionar(TransacaoBancaria transacao)
         {
             transacoes.Add(transacao);
+        }
+
+        public static void LimparRepositorio()
+        {
+            transacoes.Clear();
         }
     }
 }

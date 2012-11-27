@@ -11,8 +11,8 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
         public string JuizAssinante { get; set; }
         public string DataOrdem { get; set; }
         public string DataExecucao { get; set; }
-        public enum Ordem { Bloquer, Desbloquear }
-               
+        public string Ordem { get; set; }
+        public enum TipoOrdem { Bloquear, Desbloquear }
 
     }
 }

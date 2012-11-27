@@ -8,21 +8,26 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
     public class Transferencia : TransacaoMonetaria
     {
         public TransacaoMonetaria TransacaoMonetaria { get; set; }
+        private ContaCorrente ContaOrigem;
+        private ContaCorrente ContaDestino;
+        private decimal valor;
 
-        public Transferencia(ContaCorrente conta)
-            : base(conta)
+        public Transferencia(ContaCorrente _ContaOrigem, ContaCorrente _ContaDestino, decimal _valor)
+            : base(_ContaOrigem)
         {
-
+            ContaOrigem = _ContaOrigem;
+            ContaDestino = _ContaDestino;
+            valor = _valor;
         }
-
+        
         public override void Executa()
         {
-            //Conta.Transfere(>>>,>>>,>>>);
+            Conta.Tranfere(ContaOrigem, ContaDestino, valor);
         }
 
         public override Comprovante GerarComprovante()
         {
-            return new Comprovante("Saque em:" + Data + "Custo:" + Custo + "Valor de:" + Valor);
+            return new Comprovante("Transferência no valor de: " + Valor + " entre as contas " + ContaOrigem + " e " + ContaDestino + " foi realizada com sucesso em " + System.DateTime.Now.ToString());
         }
 
         private Comprovante comprovante;
@@ -40,5 +45,6 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
                 comprovante = value;
             }
         }
+
     }
 }

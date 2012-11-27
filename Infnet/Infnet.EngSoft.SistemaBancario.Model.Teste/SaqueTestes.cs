@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using NUnit.Framework;
-using Infnet.EngSoft.SistemaBancario.Modelo;
 using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 using Infnet.EngSoft.SistemaBancario.Repositorio;
-using Infnet.EngSoft.SistemaBancario.Servico;
 
-namespace EngSoft.SistemaBancario.Model.Teste
+namespace Infnet.EngSoft.SistemaBancario.Model.Teste
 {
     [TestFixture]
     public class SaqueTestes
@@ -16,24 +12,7 @@ namespace EngSoft.SistemaBancario.Model.Teste
         [Test]
         public void testar_saque()
         {
-            ContaCorrente conta = new ContaCorrente();
-            conta.Credita(1000);
-            conta.Numero = 123;
-
-            Saque saque = new Saque(conta, 500);
-            saque.Executa();
-            
-            Comprovante comprovante = saque.Comprovante;
-
-            RepositorioSaque.Adicionar(saque);
-
-            Assert.Contains(saque, RepositorioSaque.Listar());
-        }
-
-        [Test]
-        public void testar_saque_transacoesBancarias()
-        {
-            ContaCorrente conta = new ContaCorrente();
+            var conta = new ContaCorrente();
             conta.Credita(1000);
             conta.Numero = 123;
 
@@ -41,6 +20,8 @@ namespace EngSoft.SistemaBancario.Model.Teste
             saque.Executa();
 
             Comprovante comprovante = saque.Comprovante;
+
+            RepositorioTransacaoBancaria.LimparRepositorio();
 
             RepositorioTransacaoBancaria.Adicionar(saque);
 
@@ -58,17 +39,5 @@ namespace EngSoft.SistemaBancario.Model.Teste
 
         }
 
-        [Test]
-        public void testar_saque_transacoesBancarias1()
-        {
-            ContaCorrente conta = new ContaCorrente();
-            conta.Credita(1000);
-            conta.Numero = 123;
-
-            ServicoSaque servicoSaque = new ServicoSaque(conta, 500);
-            Assert.AreEqual(RepositorioTransacaoBancaria.Listar().Count, 1);
-
-            Assert.IsNotNull(RepositorioTransacaoBancaria.Listar().Cast<Saque>().FirstOrDefault());
-        }
     }
 }

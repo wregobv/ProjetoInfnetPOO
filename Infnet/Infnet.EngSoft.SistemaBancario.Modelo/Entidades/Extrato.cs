@@ -9,8 +9,8 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
     {
         public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
-        public DateTime DataInicial { get; set; }
-        public DateTime DataFinal { get; set; }
+        public static DateTime DataInicial { get; set; }
+        public static DateTime DataFinal { get; set; }
 
         public Extrato(ContaCorrente conta)
             : base(conta)
@@ -20,7 +20,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 
         public override void Executa()
         {
-
+            GerarComprovante();
         }
 
         public override Comprovante Comprovante
@@ -37,7 +37,7 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 
         public override Comprovante GerarComprovante()
         {
-            return new Comprovante("Extrato em: " + Data + " Referente a conta: " + Conta.Numero + " Período de: " + Conta.TransacaoMonetaria.Extrato.DataInicial + " até " + Conta.TransacaoMonetaria.Extrato.DataFinal );
+            return new Comprovante("Extrato em: " + System.DateTime.Now + " Referente a conta: " + Conta.Numero + " Período de: " + Extrato.DataInicial + " até " + Extrato.DataFinal);
         }
 
     }

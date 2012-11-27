@@ -11,9 +11,14 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
         public string Status { get; set; }
         public DateTime DataAbertura { get; set; }
         public decimal Saldo { get; protected set; }
-        public enum TipoConta{ Especial, Normal }
+        public string Tipo { get; set; }
+        public enum TipoConta { Especial, Normal }
+        public enum StatusConta { Ativa, Encerrada, BloqueadaJudicialmente }
         public virtual Agencia Agencia { get; set; }
         public virtual Cliente Cliente { get; set; }
+        public virtual ContaEspecial ContaE { get; set; }
+        public virtual ContaNormal ContaN { get; set; }
+        public virtual OrdemJudicial OrdemJudicial { get; set; }
         public TransacaoMonetaria TransacaoMonetaria { get; set; }
 
 
@@ -25,24 +30,29 @@ namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 
         public virtual decimal Debita(decimal valor)
         {
-            if (valor < 0)
-                throw new ArgumentException("Valor a debitar não pode ser negativo!");
-
-            if (Saldo - valor < 0)
-                throw new InvalidOperationException("Saldo insuficiente!");
-
             return Saldo -= valor;
         }
-        
+
         public virtual decimal Credita(decimal valor)
         {
-            if (valor < 0)
-                throw new ArgumentException("Valor a creditar não pode ser negativo!");
- 
+
             return Saldo += valor;
         }
 
+        public virtual decimal Tranfere(ContaCorrente ContaOrigem, ContaCorrente ContaDestino, decimal valor)
+        {
+            ContaOrigem.Saldo -= valor;
+            ContaDestino.Saldo += valor;
+            return ContaOrigem.Saldo -= valor;
 
+        }
+
+        public int GeradorDeNumerosDeConta()
+        {
+            var random = new Random();
+            return random.Next(1000, 999999);
+
+        }
 
 
     }
