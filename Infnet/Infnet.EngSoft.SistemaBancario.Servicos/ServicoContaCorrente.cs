@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Infnet.EngSoft.SistemaBancario.Repositorio;
-using Infnet.EngSoft.SistemaBancario.Modelo;
 using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 
 namespace Infnet.EngSoft.SistemaBancario.Servicos

@@ -20,5 +20,10 @@ namespace Infnet.EngSoft.SistemaBancario.Repositorio
             saques.Add(saque);
         }
 
+        public static void LimparRepositorio()
+        {
+            saques.Clear();
+        }
+
     }
 }

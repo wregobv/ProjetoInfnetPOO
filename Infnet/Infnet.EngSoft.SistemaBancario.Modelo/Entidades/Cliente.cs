@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Entidades;
+using Infnet.EngSoft.SistemaBancario.Modelo.Entidades;
 
 namespace Infnet.EngSoft.SistemaBancario.Modelo.Entidades
 {

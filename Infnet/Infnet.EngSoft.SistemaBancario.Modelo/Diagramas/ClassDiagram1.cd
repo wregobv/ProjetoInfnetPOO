@@ -1,98 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Agencia">
-    <Position X="13" Y="0.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Agencia" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAACAAAABgAA=</HashCode>
       <FileName>Entidades\Agencia.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Transferencia">
-    <Position X="0.5" Y="6" Width="1.5" />
+    <Position X="0.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAEAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAEAAQIAAFAAAAAAAAAAAQAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Transferencia.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Banco">
-    <Position X="14.75" Y="0.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Banco" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAAAAACAAAAAgAAAAAAAAAAABAAA=</HashCode>
       <FileName>Entidades\Banco.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Cliente">
-    <Position X="9.5" Y="6.5" Width="1.5" />
+    <Position X="1.75" Y="10.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgCAAAAAAgAAAAAAAAAAAAAEAAAAAAAEAEAA=</HashCode>
+      <HashCode>AAAAAAAAgCAAAAAAgQAAAAAAAAAAAAEAAAAAAAEAEAA=</HashCode>
       <FileName>Entidades\Cliente.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Comprovante">
-    <Position X="16.5" Y="0.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Comprovante" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Comprovante.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.ContaCorrente">
-    <Position X="4.5" Y="8.5" Width="1.5" />
+    <Position X="9.75" Y="7.5" Width="1.5" />
     <NestedTypes>
       <Enum Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.ContaCorrente.TipoConta" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>Entidades\ContaCorrente.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
+      <Enum Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.ContaCorrente.StatusConta" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entidades\ContaCorrente.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAgAAAAAAAACAAAAAEQAAgAAAAAIAAAABAAI=</HashCode>
+      <HashCode>AAAAAAAEAgIAAAAAAICAAAAAEQAAgAAAAAMAAAABgIY=</HashCode>
       <FileName>Entidades\ContaCorrente.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.ContaEspecial">
-    <Position X="3.25" Y="12.75" Width="1.5" />
+    <Position X="8.5" Y="13.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAIAAAAAgAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAYAAAAAgAA=</HashCode>
       <FileName>Entidades\ContaEspecial.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.ContaNormal">
-    <Position X="5.5" Y="12.75" Width="1.5" />
+    <Position X="10.75" Y="13.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
       <FileName>Entidades\ContaNormal.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Deposito">
-    <Position X="2.75" Y="6" Width="1.5" />
+    <Position X="3" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAEAAQIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Deposito.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Extrato">
-    <Position X="7.25" Y="3.5" Width="1.5" />
+    <Position X="7.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAkAAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAkAAQIAAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Extrato.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.OrdemJudicial">
-    <Position X="14.75" Y="1.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.OrdemJudicial" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
     <NestedTypes>
-      <Enum Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.OrdemJudicial.Ordem" Collapsed="true">
+      <Enum Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.OrdemJudicial.TipoOrdem" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>Entidades\OrdemJudicial.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAgAAAAAQAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgAAAAAQAAACAAAAAAAAAEAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\OrdemJudicial.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.PerfilCliente">
-    <Position X="16.5" Y="1.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.PerfilCliente" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
     <NestedTypes>
       <Enum Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.PerfilCliente.Perfil" Collapsed="true">
         <TypeIdentifier>
@@ -101,54 +106,54 @@
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\PerfilCliente.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.PessoaFisica">
-    <Position X="8.25" Y="9.5" Width="1.5" />
+    <Position X="0.5" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAgAAAAAIAgAIAAAAAAAAAAACAgAA=</HashCode>
       <FileName>Entidades\PessoaFisica.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.PessoaJuridica">
-    <Position X="10.5" Y="9.5" Width="1.5" />
+    <Position X="2.75" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQA=</HashCode>
       <FileName>Entidades\PessoaJuridica.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Saque">
-    <Position X="5" Y="6" Width="1.5" />
+    <Position X="5.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAEAAQIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\Saque.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Telefone">
-    <Position X="13" Y="2.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Telefone" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
+      <HashCode>AAAABAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAABAAQ=</HashCode>
       <FileName>Entidades\Telefone.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.TransacaoBancaria">
-    <Position X="3.75" Y="0.5" Width="1.5" />
+    <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEgAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAgAA=</HashCode>
+      <HashCode>AAAAAAEgAQAAAEAAAAAAAAAAAAAAABAAAAAAAAAAgAA=</HashCode>
       <FileName>Entidades\TransacaoBancaria.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.TransacaoMonetaria">
-    <Position X="2.75" Y="3.5" Width="1.5" />
+    <Position X="3" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAABgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\TransacaoMonetaria.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Entidades.Endereco">
-    <Position X="13" Y="1.5" Width="1.5" />
+  <Class Name="Infnet.EngSoft.SistemaBancario.Modelo.Entidades.Endereco" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAIEAACAgACBAAAAAAAAAAAAAAADAAA=</HashCode>
       <FileName>Entidades\Endereco.cs</FileName>

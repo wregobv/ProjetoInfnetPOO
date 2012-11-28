@@ -28,7 +28,7 @@ namespace Infnet.EngSoft.SistemaBancario.Model.Teste
             Assert.Contains(saque, RepositorioTransacaoBancaria.Listar());
 
             Saque recuperado = RepositorioTransacaoBancaria.Listar().Cast<Saque>().FirstOrDefault();
-            
+
             List<Saque> saques = RepositorioTransacaoBancaria.Listar()
                 .Where(t => t.GetType().Name == typeof(Saque).Name)
                 .Cast<Saque>()

@@ -7,3 +7,12 @@ C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.
 C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\ResolveAssemblyReference.cache
 C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\Infnet.EngSoft.SistemaBancario.Servicos.dll
 C:\WILLIAM\GITHUB\INFNET\ProjetoInfnetPOO\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\Infnet.EngSoft.SistemaBancario.Servicos.pdb
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Servicos.dll
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Servicos.pdb
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.dll
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.dll
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Modelo.pdb
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\bin\Debug\Infnet.EngSoft.SistemaBancario.Repositorio.pdb
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\Infnet.EngSoft.SistemaBancario.Servicos.dll
+C:\Users\william.rego\Desktop\Infnet\Infnet.EngSoft.SistemaBancario.Servicos\obj\Debug\Infnet.EngSoft.SistemaBancario.Servicos.pdb

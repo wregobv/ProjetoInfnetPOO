@@ -10,7 +10,7 @@ namespace Infnet.EngSoft.SistemaBancario.Model.Teste
     public class TransferenciaTestes
     {
         [Test]
-        public void testar_deposito()
+        public void testar_transferencia()
         {
             var contaorigem = new ContaCorrente();
             var contadestino = new ContaCorrente();

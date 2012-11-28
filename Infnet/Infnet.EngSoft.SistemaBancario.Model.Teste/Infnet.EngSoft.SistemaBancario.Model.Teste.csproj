@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ClienteTestes.cs" />
     <Compile Include="ComprovanteTestes.cs" />
     <Compile Include="ContaTestes.cs" />
     <Compile Include="DepositoTestes.cs" />
     <Compile Include="ExtratoTestes.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Factory\FactoryMethod\RepositorioFactoryTeste.cs" />
     <Compile Include="SaqueTestes.cs" />
+    <Compile Include="Singleton\SingletonSimplesTeste.cs" />
     <Compile Include="TransferenciaTestes.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Diagramas\ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +71,7 @@
       <Name>Infnet.EngSoft.SistemaBancario.Servicos</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
